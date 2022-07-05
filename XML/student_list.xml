@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zGroup>
+    <student>
+        <firstname>Наталья</firstname>
+        <lastname>Мамичева</lastname>
+        <groupnumber>90П</groupnumber>
+        <subject>
+            <title>Разработка серверной части</title>
+            <mark>5</mark>
+        </subject>
+        <subject>
+            <title>Высшая математика</title>
+            <mark>5</mark>
+        </subject>
+        <subject>
+            <title>История</title>
+            <mark>3</mark>
+        </subject>
+        <subject>
+            <title>Прикладное программирование</title>
+            <mark>4</mark>
+        </subject>
+        <subject>
+            <title>Философия</title>
+            <mark>5</mark>
+        </subject>
+        <average1>Здесь среднее значение оценок в группе из 2 студентов</average1>
+    </student>
+    <student>
+        <firstname>Иванов</firstname>
+        <lastname>Николай</lastname>
+        <groupnumber>90П</groupnumber>
+            <subject>
+        <title>Разработка серверной части</title>
+        <mark>5</mark>
+        </subject>
+            <subject>
+            <title>Высшая математика</title>
+            <mark>3</mark>
+        </subject>
+        <subject>
+            <title>История</title>
+            <mark>3</mark>
+        </subject>
+        <subject>
+            <title>Прикладное программирование</title>
+            <mark>3</mark>
+        </subject>
+        <subject>
+            <title>Философия</title>
+            <mark>3</mark>
+        </subject>
+        <average2>Здесь среднее значение оценок в группе из 2 студентов</average2>
+    </student>
+</zGroup>
