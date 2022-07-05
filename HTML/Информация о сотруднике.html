@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Информация о сотруднике</title>
+    <style type="text/css">
+			table{
+				margin-left: 450px;
+				border: 1px solid #399;
+				border-spacing: 7px 5px;
+			}
+			td {
+				background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+				border: 1px solid #333; /* Граница вокруг ячеек */
+				padding: 5px;
+			}
+
+			body{
+			  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+			  background: linear-gradient(to right, #25c481, #25b7c4);
+			  font-family: 'Roboto', sans-serif;
+			}
+			fieldset {
+				size: 100%;
+				margin-top: 15px;
+				border: 1px solid #d6d6d6;
+				background-color: rgba(255,255,255,0.3);
+				line-height: 1.6em;
+				font-size: 24px;
+				color: #fff;
+				font-weight: 300;
+				text-align: center;
+				margin-bottom: 15px
+			}
+			p {
+			   margin-top: 30px;
+			}
+
+    </style>
+</head>
+<body>
+<form action="#" method="post">
+    <fieldset>
+        <label class="title" for="number">Номер сотрудника:</label>
+        <input type="text" name="number" id="number"><br>
+        <button name="button">Отправить номер сотрудника</button>
+        <br>
+        <label class="title" for="name">Имя сотрудника:</label>
+        <input type="text" name="name" id="name"><br>
+        <button name="button">Отправить имя сотрудника</button>
+        <br>
+        <button name="button">Вывести всех сотрудников</button>
+        <br>
+        <a href="#">Создать нового сотрудника</a>
+        <table>
+            <tr>
+                <td><input type="text" name="number" id="" placeholder="Поле без имени"><br>
+                </td>
+                <td><label><input type="radio" name="member" value="yes"> Да</label>
+                    <label><input type="radio" name="member" value="no"> Нет</label></td>
+            </tr>
+            <tr>
+                <td>Номер сотрудника</td>
+                <td><a href="#">7</a></td>
+            </tr>
+            <tr>
+                <td>Имя сотрудника</td>
+                <td>Наталья</td>
+            </tr>
+            <tr>
+                <td>Фамилия сотрудника</td>
+                <td>Мамичева</td>
+            </tr>
+            <tr>
+                <td>Возраст сотрудника</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Пол сотрудника</td>
+                <td>Женский</td>
+            </tr>
+            <tr>
+                <td>Награды и опыт сотрудника</td>
+                <td><a href="#">Просмотреть</a></td>
+            </tr>
+            <tr>
+                <td>Должность сотрудника</td>
+                <td>Python-разработчик</td>
+            </tr>
+            <tr>
+                <td>Дата принятия на работу</td>
+                <td>17 марта 2022</td>
+            </tr>
+            <tr>
+                <td>Департамент</td>
+                <td>Науки и образования</td>
+            </tr>
+            <tr>
+                <td>Удалить</td>
+                <td><a href="#">Удалить сотрудника</a></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
