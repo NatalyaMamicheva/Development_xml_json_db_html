@@ -8,4 +8,4 @@
 
 4)Приложение проверки средней оценки студента в документе XML.
 
-Стек технологий: Python, XML, JSON, Pandas, SQLite
+Стек технологий: Python, XML, JSON, Pandas, SQLite, HTML
